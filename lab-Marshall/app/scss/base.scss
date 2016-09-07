@@ -1,8 +1,13 @@
 @import 'vendor/normalize-scss/sass/_normalize.scss';
 @include normalize();
-@import 'theme';
+
+$app-default: #ff7a7a;
 
 html, body {
   height: 100%;
   width: 100%;
+}
+
+body {
+  background-color: $app-default;
 }
